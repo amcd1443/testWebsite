@@ -1,0 +1,60 @@
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 20px/1.8 "Times New Roman", sans-serif;
+	color: #777
+}
+
+.bgImg0, .bgImg1, .bgImg2 {
+	position: relative;
+	opacity: .65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bgImg0 {
+	background-image: url(img/img0.jpg);
+	min-height: 100%;
+}
+
+.bgImg1 {
+	background-image: url("img/img1.png");
+	min-height: 100%;
+}
+
+.bgImg2 {
+	background-image: url("img/img2.png");
+	min-height: 100%
+}
+
+.caption {
+	position: absolute;
+	left: 0px;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;	
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Times New Roman", sans-serif;
+	color: #111;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	color: red;
+}
